@@ -1,1 +1,381 @@
-sign_in.css
+.doubletap-container{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: flex-start;
+    height:100%;
+    width:100%;
+}
+
+.image-container{
+    position: absolute;
+}
+
+.image{
+    height:100%;
+    width:100%;
+}
+
+.doubletap-navbar{
+    position: relative;
+    height:90px; 
+    width:100%;
+    /* border:2px solid black; */
+}
+
+button:hover{
+    box-shadow: 5px 10px 10px grey;
+}
+
+.doubletap-logo{
+    position: relative;
+    background-color: transparent;
+    height:50px;
+    width:170px;
+    top:25px;
+    left: 110px;
+    box-shadow: none;
+    border:none;
+}
+
+.home-link{
+    position: absolute;
+    height:22px;
+    width:50px;
+    left:365px;
+    bottom:20px;
+    background-color: blue;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    box-shadow: 5px 10px;
+    border-radius: 10px;
+    /* border: 2px solid black; */
+}
+
+.features-link{
+    position: absolute;
+    height:22px;
+    width:70px;
+    left:495px;
+    bottom:20px;
+    background-color: blue;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    border-radius: 10px;
+    /* border: 2px solid black; */
+}
+
+.pricing-link{
+    position: absolute;
+    height:22px;
+    width:60px;
+    left:625px;
+    bottom:20px;
+    background-color: blue;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    border-radius: 10px;
+    /* border: 2px solid black; */
+}
+
+.how-it-works-link{
+    position: absolute;
+    height:22px;
+    width:110px;
+    left:755px;
+    bottom:20px;
+    background-color: blue;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    border-radius: 10px;
+    /* border: 2px solid black; */
+}
+
+.support-link{
+    position: absolute;
+    height: 22px;
+    width: 70px;
+    left:915px;
+    bottom:20px;
+    background-color: blue;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    border-radius: 10px;
+    /* border: 2px solid black; */
+}
+
+.sign-in-1{
+    position: absolute;
+    height: 45px;
+    width: 92px;
+    left:1136px;
+    bottom:10px;
+    background-color: white;
+    color: black;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.try-it-free{
+    position: absolute;
+    height:45px;
+    width:115px;
+    left:1250px;
+    bottom:10px;
+    background-color: blue;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    border-radius: 10px;
+    /* border: 2px solid black; */
+}
+
+
+.doubletap-header{
+    display:flex;
+    position: relative;
+    height:610px; 
+    width:100%;
+    /* border:2px solid black; */
+}
+
+.left-header{
+    position: relative;
+    height:100%; 
+    width:55%;
+    /* border:2px solid black; */
+}
+
+.sign-up-free{
+    position:absolute;
+    top:419px;
+    left:168px;
+    height:77px;
+    width:215px;
+    background-color: blue;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 150%;
+    border-radius: 10px;
+    /* border:2px solid black; */
+}
+
+.chat-with-us-1{
+    position:relative;
+    top:419px;
+    left:398px;
+    height:77px;
+    width:230px;
+    background-color: blue;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 150%;
+    border-radius: 10px;
+    /* border:2px solid black; */
+}
+
+.sign-in-2{
+    position: relative;
+    height: 23px;
+    width: 73px;
+    left:425px;
+    top:438px;
+    background-color: transparent;
+    border-radius: 10px;
+    border: none;
+}
+
+.right-header{
+    position: relative;
+    height: 100%; 
+    width: 45%;
+    /* border:2px solid black; */
+}
+
+
+.explore{
+    display: flex;
+    position: relative;
+    height:500px;
+    width:100%;
+    /* border: 2px solid black; */
+}
+
+.payments{
+    position:relative;
+    top:343px;
+    left:280px;
+    height:140px;
+    width:127px;
+    background-color: transparent;
+    border-radius: 10px;
+    border:none;
+}
+
+
+
+.retain{
+    position:relative;
+    top:346px;
+    left:427px;
+    height:140px;
+    width:127px;
+    background-color: transparent;
+    border-radius: 10px;
+    border:none;
+}
+
+.reporting{
+    position:relative;
+    top:346px;
+    left:573px;
+    height:140px;
+    width:127px;
+    background-color: transparent;
+    border-radius: 10px;
+    border:none;
+}
+
+.convert{
+    position:relative;
+    top:346px;
+    left:718px;
+    height:140px;
+    width:127px;
+    background-color: transparent;
+    border-radius: 10px;
+    border:none;
+}
+
+
+.payment-options{
+    display: flex;
+    position: relative;
+    height:800px;
+    width:100%;
+    /* border: 2px solid black; */
+}
+
+.list1{
+    position:relative;
+    right:190px;
+    bottom:275px;
+    list-style-type:none;
+    color:black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.list-items{
+    padding:17px;
+}
+
+.learn-more{
+    position:relative;
+    top:542px;
+    left:660px;
+    height:45px;
+    width:225px;
+    background-color: transparent;
+    border:none;
+    box-shadow: none;
+}
+
+
+.selling-points{
+    display: flex;
+    position: relative;
+    height:980px;
+    width:100%;
+    border: none;
+}
+
+.email-dashboards{
+    position:absolute;
+    top:461px;
+    left:438px;
+    height:35px;
+    width:165px;
+    border-radius: 5px;
+    background-color: transparent;
+    border:none;
+}
+
+.task-management{
+    position:absolute;
+    top:461px;
+    left:952px;
+    height:35px;
+    width:165px;
+    border-radius: 5px;
+    background-color: transparent;
+    border:none;
+}
+
+.analytics{
+    position:absolute;
+    top:858px;
+    left:433px;
+    height:35px;
+    width:165px;
+    border-radius: 5px;
+    background-color: transparent;
+    border:none;
+}
+
+.project-calendars{
+    position:absolute;
+    top:858px;
+    left:951px;
+    height:35px;
+    width:165px;
+    border-radius: 5px;
+    background-color: transparent;
+    border:none;
+}
+
+
+.doubletap-footer{
+    display:flex;
+    position: relative;
+    height:397px;
+    width:100%;
+    border: 2px solid black;
+}
+
+.get-started{
+    position:relative;
+    top:170px;
+    left:525px;
+    height:47px;
+    width:215px;
+    border-radius: 10px;
+    background-color: white;
+    color:blue;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 150%;
+    border:none;
+}
+
+.chat-with-us-2{
+    position:relative;
+    top:170px;
+    left:600px;
+    height:47px;
+    width:177px;
+    border-radius: 10px;
+    background-color: white;
+    color:blue;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 150%;
+    border:none;
+}
