@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        #image-container {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+        }
+
+        #image-container img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.3s ease;
+            transform-origin: center center;
+        }
+
+        #image-container:hover img {
+            transform: scale(1.1);
+        }
+    </style>
+    <script>
+        function scrollToTop() {
+            window.scrollTo(0, 0);
+        }
+
+        function resizeWindow(width, height) {
+            window.innerWidth = width;
+            window.innerHeight = height;
+        }
+
+        function handleScroll(event) {
+            event.preventDefault();
+            
+           
+            const image = document.querySelector('#image-container img');
+            
+            
+            const delta = Math.sign(event.deltaY);
+            const scaleFactor = 0.3; 
+            const currentScale = parseFloat(image.style.transform.replace(/[^0-9.-]/g, ''));
+            const newScale = currentScale + delta * scaleFactor;
+            
+            
+            image.style.transform = `scale(${newScale})`;
+        }
+
+        
+        const imageContainer = document.querySelector('#image-container');
+        imageContainer.addEventListener('wheel', handleScroll);
+    </script>
+</head>
+<body>
+    <div id="image-container">
+        <img src="Images/Signup.png" alt="Signup">
+    </div>
+
+    <button onclick="scrollToTop()">Scroll to Top</button>
+    <button onclick="resizeWindow(800, 400)">Resize Window</button>
+</body>
+</html>
