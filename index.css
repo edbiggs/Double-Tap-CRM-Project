@@ -16,10 +16,11 @@
 }
 
 .doubletap-navbar{
-    position: relative;
-    height:90px; 
+    display:flex;
+    position: absolute;
+    height:11%; 
     width:100%;
-    /* border:2px solid black; */
+    border:none;
 }
 
 button:hover{
@@ -29,91 +30,91 @@ button:hover{
 .doubletap-logo{
     position: relative;
     background-color: transparent;
-    height:50px;
-    width:170px;
-    top:25px;
-    left: 110px;
+    height:50%;
+    width:12%;
+    top:30%;
+    left: 7%;
     box-shadow: none;
     border:none;
 }
 
 .home-link{
     position: absolute;
-    height:22px;
-    width:50px;
-    left:365px;
-    bottom:20px;
+    height:26%;
+    width:5%;
+    left:23%;
+    bottom:25%;
     background-color: blue;
     color: white;
     font-family:Arial, Helvetica, sans-serif;
     font-weight: bold;
     box-shadow: 5px 10px;
     border-radius: 10px;
-    /* border: 2px solid black; */
+    border:none;
 }
 
 .features-link{
     position: absolute;
-    height:22px;
-    width:70px;
-    left:495px;
-    bottom:20px;
+    height:26%;
+    width:5%;
+    left:32%;
+    bottom:25%;
     background-color: blue;
     color: white;
     font-family:Arial, Helvetica, sans-serif;
     font-weight: bold;
     border-radius: 10px;
-    /* border: 2px solid black; */
+    border:none;
 }
 
 .pricing-link{
     position: absolute;
-    height:22px;
-    width:60px;
-    left:625px;
-    bottom:20px;
+    height:26%;
+    width:5%;
+    left:41%;
+    bottom:25%;
     background-color: blue;
     color: white;
     font-family:Arial, Helvetica, sans-serif;
     font-weight: bold;
     border-radius: 10px;
-    /* border: 2px solid black; */
+    border:none;
 }
 
 .how-it-works-link{
     position: absolute;
-    height:22px;
-    width:110px;
-    left:755px;
-    bottom:20px;
+    height:26%;
+    width:8%;
+    left:48.5%;
+    bottom:25%;
     background-color: blue;
     color: white;
     font-family:Arial, Helvetica, sans-serif;
     font-weight: bold;
     border-radius: 10px;
-    /* border: 2px solid black; */
+    border:none;
 }
 
 .support-link{
     position: absolute;
-    height: 22px;
-    width: 70px;
-    left:915px;
-    bottom:20px;
+    height: 26%;
+    width: 5%;
+    left:59%;
+    bottom:25%;
     background-color: blue;
     color: white;
     font-family:Arial, Helvetica, sans-serif;
     font-weight: bold;
     border-radius: 10px;
-    /* border: 2px solid black; */
+    border:none;
 }
 
 .sign-in-1{
     position: absolute;
-    height: 45px;
-    width: 92px;
-    left:1136px;
-    bottom:10px;
+    height: 45%;
+    width: 7%;
+    left:74%;
+    bottom:17%;
     background-color: white;
     color: black;
     font-family:Arial, Helvetica, sans-serif;
@@ -123,97 +124,93 @@ button:hover{
 
 .try-it-free{
     position: absolute;
-    height:45px;
-    width:115px;
-    left:1250px;
-    bottom:10px;
+    height: 45%;
+    width: 7.5%;
+    left:82%;
+    bottom:17%;
     background-color: blue;
     color: white;
     font-family:Arial, Helvetica, sans-serif;
     font-weight: bold;
     border-radius: 10px;
-    /* border: 2px solid black; */
+    border:none;
 }
 
 
 .doubletap-header{
     display:flex;
-    position: relative;
-    height:610px; 
+    position: absolute;
+    top:12%;
+    height:75%; 
     width:100%;
-    /* border:2px solid black; */
+    border:none;
 }
 
 .left-header{
-    position: relative;
+    position: absolute;
     height:100%; 
     width:55%;
-    /* border:2px solid black; */
+    border:none;
 }
 
 .sign-up-free{
     position:absolute;
-    top:419px;
-    left:168px;
-    height:77px;
-    width:215px;
+    bottom:24%;
+    left:20%;
+    height:12%;
+    width:25.7%;
     background-color: blue;
     color: white;
     font-family:Arial, Helvetica, sans-serif;
     font-weight: bold;
     font-size: 150%;
     border-radius: 10px;
-    /* border:2px solid black; */
+    border:none;
 }
 
 .chat-with-us-1{
-    position:relative;
-    top:419px;
-    left:398px;
-    height:77px;
-    width:230px;
+    position:absolute;
+    bottom:24%;
+    left:47%;
+    height:12%;
+    width:28%;
     background-color: blue;
     color: white;
     font-family:Arial, Helvetica, sans-serif;
     font-weight: bold;
     font-size: 150%;
     border-radius: 10px;
-    /* border:2px solid black; */
+    border:none;
 }
 
 .sign-in-2{
-    position: relative;
-    height: 23px;
-    width: 73px;
-    left:425px;
-    top:438px;
+    position: absolute;
+    height: 5%;
+    width: 10%;
+    left:51%;
+    top:79%;
     background-color: transparent;
     border-radius: 10px;
     border: none;
 }
 
-.right-header{
-    position: relative;
-    height: 100%; 
-    width: 45%;
-    /* border:2px solid black; */
-}
 
 
 .explore{
     display: flex;
-    position: relative;
-    height:500px;
+    position: absolute;
+    top:87.4%;
+    height:68%;
     width:100%;
-    /* border: 2px solid black; */
+    border:none;
 }
 
 .payments{
-    position:relative;
-    top:343px;
-    left:280px;
-    height:140px;
-    width:127px;
+    position:absolute;
+    left:18.5%;
+    bottom:23%;
+    height:23.7%;
+    width:8.5%;
     background-color: transparent;
     border-radius: 10px;
     border:none;
@@ -222,33 +219,33 @@ button:hover{
 
 
 .retain{
-    position:relative;
-    top:346px;
-    left:427px;
-    height:140px;
-    width:127px;
+    position:absolute;
+    left:36.5%;
+    bottom:23%;
+    height:23.7%;
+    width:8.5%;
     background-color: transparent;
     border-radius: 10px;
     border:none;
 }
 
 .reporting{
-    position:relative;
-    top:346px;
-    left:573px;
-    height:140px;
-    width:127px;
+    position:absolute;
+    left:54.5%;
+    bottom:23%;
+    height:23.7%;
+    width:8.5%;
     background-color: transparent;
     border-radius: 10px;
     border:none;
 }
 
 .convert{
-    position:relative;
-    top:346px;
-    left:718px;
-    height:140px;
-    width:127px;
+    position:absolute;
+    left:72.4%;
+    bottom:23%;
+    height:23.7%;
+    width:8.5%;
     background-color: transparent;
     border-radius: 10px;
     border:none;
@@ -257,63 +254,64 @@ button:hover{
 
 .payment-options{
     display: flex;
-    position: relative;
-    height:800px;
+    position: absolute;
+    top:155.5%;
+    height:85%;
     width:100%;
-    /* border: 2px solid black; */
+    border:none;
 }
 
 .list1{
-    position:relative;
-    right:190px;
-    bottom:275px;
+    position:absolute;
+    left:31%;
+    bottom:56%;
     list-style-type:none;
     color:black;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
+    border:;
 }
 
 .list-items{
-    padding:17px;
+    padding:22%;
 }
-
+/*
 .learn-more{
-    position:relative;
-    top:542px;
-    left:660px;
-    height:45px;
-    width:225px;
+    position:absolute;
+    top:58.3%;
+    left:43%;
+    height:7%;
+    width:15.5%;
     background-color: transparent;
     border:none;
     box-shadow: none;
 }
-
+*/
 
 .selling-points{
     display: flex;
-    position: relative;
-    height:980px;
+    position: absolute;
+    top:240.7%;
+    height:109.5%;
     width:100%;
-    border: none;
-}
+    border:none;}
 
 .email-dashboards{
     position:absolute;
-    top:461px;
-    left:438px;
-    height:35px;
-    width:165px;
+    top:43.2%;
+    left:28.6%;
+    height:3.8%;
+    width:11%;
     border-radius: 5px;
     background-color: transparent;
-    border:none;
-}
+    border:none;}
 
 .task-management{
     position:absolute;
-    top:461px;
-    left:952px;
-    height:35px;
-    width:165px;
+    top:43.2%;
+    right:26.6%;
+    height:3.8%;
+    width:11%;
     border-radius: 5px;
     background-color: transparent;
     border:none;
@@ -321,10 +319,10 @@ button:hover{
 
 .analytics{
     position:absolute;
-    top:858px;
-    left:433px;
-    height:35px;
-    width:165px;
+    top:85.5%;
+    left:28.4%;
+    height:3.8%;
+    width:11%;
     border-radius: 5px;
     background-color: transparent;
     border:none;
@@ -332,10 +330,10 @@ button:hover{
 
 .project-calendars{
     position:absolute;
-    top:858px;
-    left:951px;
-    height:35px;
-    width:165px;
+    top:85.5%;
+    right:26.6%;
+    height:3.8%;
+    width:11%;
     border-radius: 5px;
     background-color: transparent;
     border:none;
@@ -344,18 +342,19 @@ button:hover{
 
 .doubletap-footer{
     display:flex;
-    position: relative;
-    height:397px;
+    position: absolute;
+    top:350%;
+    height:47%;
     width:100%;
-    border: 2px solid black;
+    border:none;
 }
 
 .get-started{
-    position:relative;
-    top:170px;
-    left:525px;
-    height:47px;
-    width:215px;
+    position:absolute;
+    top:40%;
+    left:34.5%;
+    height:12%;
+    width:15%;
     border-radius: 10px;
     background-color: white;
     color:blue;
@@ -366,11 +365,11 @@ button:hover{
 }
 
 .chat-with-us-2{
-    position:relative;
-    top:170px;
-    left:600px;
-    height:47px;
-    width:177px;
+    position:absolute;
+    top:40%;
+    right:34.5%;
+    height:12%;
+    width:15%;
     border-radius: 10px;
     background-color: white;
     color:blue;
@@ -378,4 +377,4 @@ button:hover{
     font-weight: bold;
     font-size: 150%;
     border:none;
-}
+} */
